@@ -8,8 +8,9 @@ import Sidebar from './sidebar';
 
 const MobileSidebar = () => {
 
+    //simple method to reduce hidration 
+    
     const [isMounted, setIsMounted] = useState(false);
-
     useEffect(()=>{
         setIsMounted(true);
     }, []);
